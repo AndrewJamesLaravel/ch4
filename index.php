@@ -6,6 +6,7 @@ ini_set( "display_errors", 1 );
 include_once "classes/Page_Data.class.php";
 $pageData = new Page_Data();
 $pageData->title = "Dynamic image gallery";
+$pageData->addJS('js/lightbox.js');
 $pageData->addCSS('css/layout.css');
 $pageData->addCSS('css/navigation.css');
 $pageData->content = include_once "views/navigation.php";

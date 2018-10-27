@@ -10,5 +10,6 @@ $pageData->embeddedStyle
 </head>
 <body>
 $pageData->content
+$pageData->js
 </body>
 </html>";
